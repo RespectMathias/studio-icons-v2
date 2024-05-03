@@ -437,6 +437,8 @@
 			"iconPath": "JSScript_16x.svg",
 			"fileExtensions": [
 				"js",
+				"cjs",
+				"mjs",
 				"ejs",
 				"esx"
 			],
@@ -742,6 +744,8 @@
 			"iconPath": "TS_FileSENode_16x.svg",
 			"fileExtensions": [
 				"ts",
+				"cts",
+				"mts",
 				"tsx",
 				"d.ts"
 			],
