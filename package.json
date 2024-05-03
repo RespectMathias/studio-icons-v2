@@ -1,7 +1,7 @@
 {
 	"name": "vscode-icon-v2",
 	"version": "2.0.0",
-	"displayName": "Studio Icons",
+	"displayName": "Studio Icons V2",
 	"description": "Featuring official icons from the Visual Studio Image Library. Optimized to work well for dark, light, and high contrast themes.",
 	"publisher": "vigan-abd",
 	"type": "module",
