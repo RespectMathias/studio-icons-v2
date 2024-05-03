@@ -1,10 +1,11 @@
 {
-	"name": "vscode-icon-theme",
+	"name": "vscode-icon-v2",
+	"version": "2.0.0",
 	"displayName": "Studio Icons",
 	"description": "Featuring official icons from the Visual Studio Image Library. Optimized to work well for dark, light, and high contrast themes.",
-	"version": "1.6.6",
-	"publisher": "jtlowe",
-	"license": "SEE LICENSE IN LICENSE.md",
+	"publisher": "vigan-abd",
+	"type": "module",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.5.0"
 	},
@@ -14,8 +15,8 @@
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "vscode-icon-theme",
-				"label": "Studio Icons",
+				"id": "vscode-icon-v2",
+				"label": "Studio Icons V2",
 				"path": "fileicons/studio-icons.json"
 			}
 		]
@@ -26,20 +27,28 @@
 		"icon-theme",
 		"customization"
 	],
-	"homepage": "https://github.com/jtlowe/studio-icons/blob/master/README.md",
+	"homepage": "https://github.com/vigan-abd/studio-icons-v2/blob/master/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jtlowe/studio-icons.git"
+		"url": "https://github.com/vigan-abd/studio-icons-v2.git"
 	},
 	"bugs": {
-		"url": "https://github.com/jtlowe/studio-icons/issues"
+		"url": "https://github.com/vigan-abd/studio-icons-v2/issues"
 	},
 	"icon": "images/logo.png",
 	"galleryBanner": {
 		"color": "#e0e0e0",
 		"theme": "light"
 	},
-	"dependencies": {
-		"gulp": "^3.9.1"
+	"scripts": {
+		"build": "gulp build",
+		"clean": "gulp clean",
+		"compile": "gulp",
+		"lint": "standard",
+		"lint:fix": "standard --fix"
+	},
+	"devDependencies": {
+		"gulp": "^5.0.0",
+		"standard": "^17.1.0"
 	}
 }

@@ -1,9 +1,13 @@
-var fs = require("fs");
-var gulp = require('gulp');
-var generator = require('./src/icon-generator.js');
+'use strict'
 
-gulp.task('build', function () {
-    new generator().init();
-});
+import { series } from 'gulp'
+import { IconBuilder } from './src/icon.builder.js'
 
-gulp.task('default', ['build']);
+const builder = new IconBuilder()
+
+const clean = () => builder.clean()
+
+const build = () => builder.build()
+
+export { clean, build }
+export default series(clean, build)
