@@ -1,54 +1,54 @@
 {
-	"name": "vscode-icon-v2",
-	"version": "2.0.0",
-	"displayName": "Studio Icons V2",
-	"description": "Featuring official icons from the Visual Studio Image Library. Optimized to work well for dark, light, and high contrast themes.",
-	"publisher": "vigan-abd",
-	"type": "module",
-	"license": "MIT",
-	"engines": {
-		"vscode": "^1.5.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"iconThemes": [
-			{
-				"id": "vscode-icon-v2",
-				"label": "Studio Icons V2",
-				"path": "fileicons/studio-icons.json"
-			}
-		]
-	},
-	"keywords": [
-		"icons",
-		"theme",
-		"icon-theme",
-		"customization"
-	],
-	"homepage": "https://github.com/vigan-abd/studio-icons-v2/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/vigan-abd/studio-icons-v2.git"
-	},
-	"bugs": {
-		"url": "https://github.com/vigan-abd/studio-icons-v2/issues"
-	},
-	"icon": "images/logo.png",
-	"galleryBanner": {
-		"color": "#e0e0e0",
-		"theme": "light"
-	},
-	"scripts": {
-		"build": "gulp build",
-		"clean": "gulp clean",
-		"compile": "gulp",
-		"lint": "standard",
-		"lint:fix": "standard --fix"
-	},
-	"devDependencies": {
-		"gulp": "^5.0.0",
-		"standard": "^17.1.0"
-	}
+  "name": "vscode-icon-v2",
+  "version": "2.0.0",
+  "displayName": "Studio Icons V2",
+  "description": "Featuring official icons from the Visual Studio Image Library. Optimized to work well for dark, light, and high contrast themes.",
+  "publisher": "vigan-abd",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "vscode-icon-v2",
+        "label": "Studio Icons V2",
+        "path": "fileicons/studio-icons.json"
+      }
+    ]
+  },
+  "keywords": [
+    "icons",
+    "theme",
+    "icon-theme",
+    "customization"
+  ],
+  "homepage": "https://github.com/vigan-abd/studio-icons-v2/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vigan-abd/studio-icons-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vigan-abd/studio-icons-v2/issues"
+  },
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#e0e0e0",
+    "theme": "light"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "compile": "gulp",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "standard": "^17.1.0"
+  }
 }

@@ -1,3 +1,7 @@
+## 2.0.0 (May 3, 2024)
+  - Rewrote package with gulp 5.0 and mjs
+  - Added `mjs`, `cjs`, `mts`, `cts` to `js` and `ts` icons 
+
 ## 1.6.6 (March 11, 2020)
   - Feature: Adding .csx file extension to CS icon. Thanks [@AdrianWilczynski](https://github.com/AdrianWilczynski)! 
   - Feature: Adding .razor file extension to Parameter icon. Thanks [@AdrianWilczynski](https://github.com/AdrianWilczynski)! 
