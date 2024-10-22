@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<g id="outline">
-	<rect style="opacity:0;fill:#F6F6F6;" width="16" height="16"/>
-	<polygon style="fill:#F6F6F6;" points="11,2 11,1 5,1 5,2 0,2 0,15 16,15 16,2 	"/>
-</g>
-<g id="icon_x5F_bg">
-	<path style="fill:#424242;" d="M11,3v11h4V3H11z M14,13h-2v-1h2V13z M14,11h-2v-1h2V11z M14,6h-2V4h2V6z"/>
-	<path style="fill:#424242;" d="M6,14h4V2H6V14z M7,3h2v1H7V3z M7,10h2v1H7V10z M7,12h2v1H7V12z"/>
-	<path style="fill:#424242;" d="M1,14h4V3H1V14z M2,4h2v2H2V4z M2,10h2v1H2V10z M2,12h2v1H2V12z"/>
-</g>
-<g id="icon_x5F_fg">
-	<path style="fill:#F0EFF1;" d="M14,13h-2v-1h2V13z M14,10h-2v1h2V10z M14,4h-2v2h2V4z M9,12H7v1h2V12z M9,10H7v1h2V10z M9,3H7v1h2
-		V3z M4,12H2v1h2V12z M4,10H2v1h2V10z M4,4H2v2h2V4z"/>
-</g>
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <ns0:defs>
+    <ns0:style>.canvas{fill: none; opacity: 0;}.light-defaultgrey-10{fill: #212121; opacity: 0.1;}.light-defaultgrey{fill: #212121; opacity: 1;}</ns0:style>
+  </ns0:defs>
+  <ns0:title>IconLightLibrary</ns0:title>
+  <ns0:g id="canvas" style="fill:none;opacity:0;">
+    <ns0:path d="M16,16H0V0H16Z" style="fill:none;opacity:0;" />
+  </ns0:g>
+  <ns0:g id="level-1">
+    <ns0:path d="M3.5,2.5v11h-2V2.5Zm4,0v11h-2V2.5ZM14.389,13l-1.931.517L9.611,2.9l1.931-.517Z" style="fill:#212121;opacity:0.1;" />
+    <ns0:path d="M12.025,2.249,11.412,1.9,9.48,2.413l-.353.613,2.848,10.625.613.354,1.932-.518.353-.613Zm.787,10.66L10.223,3.25l.965-.259,2.589,9.659ZM7.5,14h-2L5,13.5V2.5L5.5,2h2l.5.5v11ZM6,13H7V3H6ZM3.5,14h-2L1,13.5V2.5L1.5,2h2l.5.5v11ZM2,13H3V3H2Z" style="fill:#212121;opacity:1;" />
+  </ns0:g>
+</ns0:svg>

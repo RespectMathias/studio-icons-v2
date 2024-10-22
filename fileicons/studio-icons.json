@@ -684,15 +684,6 @@
     "Table_16x_contrast.svg": {
       "iconPath": "./images/Table_16x_contrast.svg"
     },
-    "Text_16x.svg": {
-      "iconPath": "./images/Text_16x.svg"
-    },
-    "Text_16x_inverse.svg": {
-      "iconPath": "./images/Text_16x_inverse.svg"
-    },
-    "Text_16x_contrast.svg": {
-      "iconPath": "./images/Text_16x_contrast.svg"
-    },
     "TextFile_16x.svg": {
       "iconPath": "./images/TextFile_16x.svg"
     },
@@ -701,6 +692,15 @@
     },
     "TextFile_16x_contrast.svg": {
       "iconPath": "./images/TextFile_16x_contrast.svg"
+    },
+    "MarkdownFile_16x.svg": {
+      "iconPath": "./images/MarkdownFile_16x.svg"
+    },
+    "MarkdownFile_16x_inverse.svg": {
+      "iconPath": "./images/MarkdownFile_16x_inverse.svg"
+    },
+    "MarkdownFile_16x_contrast.svg": {
+      "iconPath": "./images/MarkdownFile_16x_contrast.svg"
     },
     "VBApplication_16x.svg": {
       "iconPath": "./images/VBApplication_16x.svg"
@@ -809,6 +809,60 @@
     },
     "ZipFile_16x_contrast.svg": {
       "iconPath": "./images/ZipFile_16x_contrast.svg"
+    },
+    "ASPGenericHandlerFile_16x.svg": {
+      "iconPath": "./images/ASPGenericHandlerFile_16x.svg"
+    },
+    "ASPGenericHandlerFile_16x_inverse.svg": {
+      "iconPath": "./images/ASPGenericHandlerFile_16x_inverse.svg"
+    },
+    "ASPGenericHandlerFile_16x_contrast.svg": {
+      "iconPath": "./images/ASPGenericHandlerFile_16x_contrast.svg"
+    },
+    "BinaryFile_16x.svg": {
+      "iconPath": "./images/BinaryFile_16x.svg"
+    },
+    "BinaryFile_16x_inverse.svg": {
+      "iconPath": "./images/BinaryFile_16x_inverse.svg"
+    },
+    "BinaryFile_16x_contrast.svg": {
+      "iconPath": "./images/BinaryFile_16x_contrast.svg"
+    },
+    "CompiledHelpFile_16x.svg": {
+      "iconPath": "./images/CompiledHelpFile_16x.svg"
+    },
+    "CompiledHelpFile_16x_inverse.svg": {
+      "iconPath": "./images/CompiledHelpFile_16x_inverse.svg"
+    },
+    "CompiledHelpFile_16x_contrast.svg": {
+      "iconPath": "./images/CompiledHelpFile_16x_contrast.svg"
+    },
+    "PDBFile_16x.svg": {
+      "iconPath": "./images/PDBFile_16x.svg"
+    },
+    "PDBFile_16x_inverse.svg": {
+      "iconPath": "./images/PDBFile_16x_inverse.svg"
+    },
+    "PDBFile_16x_contrast.svg": {
+      "iconPath": "./images/PDBFile_16x_contrast.svg"
+    },
+    "PowershellFile_16x.svg": {
+      "iconPath": "./images/PowershellFile_16x.svg"
+    },
+    "PowershellFile_16x_inverse.svg": {
+      "iconPath": "./images/PowershellFile_16x_inverse.svg"
+    },
+    "PowershellFile_16x_contrast.svg": {
+      "iconPath": "./images/PowershellFile_16x_contrast.svg"
+    },
+    "YAMLFile_16x.svg": {
+      "iconPath": "./images/YAMLFile_16x.svg"
+    },
+    "YAMLFile_16x_inverse.svg": {
+      "iconPath": "./images/YAMLFile_16x_inverse.svg"
+    },
+    "YAMLFile_16x_contrast.svg": {
+      "iconPath": "./images/YAMLFile_16x_contrast.svg"
     }
   },
   "light": {
@@ -833,7 +887,7 @@
       "s": "AssemblerSourceFile_16x.svg",
       "styl": "BuildStyle_16x.svg",
       "c": "CFile_16x_color.svg",
-      "cc": "CFile_16x_color.svg",
+      "cc": "CPP_16x.svg",
       "cpp": "CPP_16x.svg",
       "cxx": "CPP_16x.svg",
       "h": "CPPHeaderFile_16x.svg",
@@ -848,14 +902,12 @@
       "cmd": "Console_16x.svg",
       "sh": "Console_16x.svg",
       "bat": "Console_16x.svg",
-      "ps1": "Console_16x.svg",
       "vcxproj": "CPPApplication_16x.svg",
       "csproj": "CSApplication_16x.svg",
       "cur": "CursorFile_16x.svg",
       "sql": "Database_16x.svg",
       "mdb": "Database_16x.svg",
       "sqlite": "Database_16x.svg",
-      "pdb": "Database_16x.svg",
       "vsix": "Extension_16x.svg",
       "manifest": "ExtensionManagerManifest_16x.svg",
       "resx": "FileGroup_16x.svg",
@@ -975,6 +1027,7 @@
       "docx": "OfficeWord2013Logo_16x.svg",
       "cshtml": "Parameter_16x.svg",
       "razor": "Parameter_16x.svg",
+      "vbhtml": "Parameter_16x.svg",
       "pdf": "PDFFile_16x.svg",
       "php": "PHPFile_16x.svg",
       "properties": "Property_16x.svg",
@@ -1003,10 +1056,11 @@
       "xlsx": "Table_16x.svg",
       "xls": "Table_16x.svg",
       "csv": "Table_16x.svg",
-      "txt": "Text_16x.svg",
-      "rtf": "Text_16x.svg",
-      "md": "TextFile_16x.svg",
-      "md.rendered": "TextFile_16x.svg",
+      "txt": "TextFile_16x.svg",
+      "rtf": "TextFile_16x.svg",
+      "md": "MarkdownFile_16x.svg",
+      "md.rendered": "MarkdownFile_16x.svg",
+      "markdown": "MarkdownFile_16x.svg",
       "vbproj": "VBApplication_16x.svg",
       "vdi": "VirtualMachine_16x.svg",
       "vbox": "VirtualMachine_16x.svg",
@@ -1030,7 +1084,15 @@
       "bzip2": "ZipFile_16x.svg",
       "7z": "ZipFile_16x.svg",
       "rar": "ZipFile_16x.svg",
-      "tgz": "ZipFile_16x.svg"
+      "tgz": "ZipFile_16x.svg",
+      "ashx": "ASPGenericHandlerFile_16x.svg",
+      "bin": "BinaryFile_16x.svg",
+      "chm": "CompiledHelpFile_16x.svg",
+      "pdb": "PDBFile_16x.svg",
+      "ps1": "PowershellFile_16x.svg",
+      "psm1": "PowershellFile_16x.svg",
+      "yml": "YAMLFile_16x.svg",
+      "yaml": "YAMLFile_16x.svg"
     },
     "fileNames": {
       "androidmanifest.xml": "AndroidFile_16x.svg",
@@ -1104,7 +1166,7 @@
       "s": "AssemblerSourceFile_16x_contrast.svg",
       "styl": "BuildStyle_16x_contrast.svg",
       "c": "CFile_16x_color_contrast.svg",
-      "cc": "CFile_16x_color_contrast.svg",
+      "cc": "CPP_16x_contrast.svg",
       "cpp": "CPP_16x_contrast.svg",
       "cxx": "CPP_16x_contrast.svg",
       "h": "CPPHeaderFile_16x_contrast.svg",
@@ -1119,14 +1181,12 @@
       "cmd": "Console_16x_contrast.svg",
       "sh": "Console_16x_contrast.svg",
       "bat": "Console_16x_contrast.svg",
-      "ps1": "Console_16x_contrast.svg",
       "vcxproj": "CPPApplication_16x_contrast.svg",
       "csproj": "CSApplication_16x_contrast.svg",
       "cur": "CursorFile_16x_contrast.svg",
       "sql": "Database_16x_contrast.svg",
       "mdb": "Database_16x_contrast.svg",
       "sqlite": "Database_16x_contrast.svg",
-      "pdb": "Database_16x_contrast.svg",
       "vsix": "Extension_16x_contrast.svg",
       "manifest": "ExtensionManagerManifest_16x_contrast.svg",
       "resx": "FileGroup_16x_contrast.svg",
@@ -1246,6 +1306,7 @@
       "docx": "OfficeWord2013Logo_16x_contrast.svg",
       "cshtml": "Parameter_16x_contrast.svg",
       "razor": "Parameter_16x_contrast.svg",
+      "vbhtml": "Parameter_16x_contrast.svg",
       "pdf": "PDFFile_16x_contrast.svg",
       "php": "PHPFile_16x_contrast.svg",
       "properties": "Property_16x_contrast.svg",
@@ -1274,10 +1335,11 @@
       "xlsx": "Table_16x_contrast.svg",
       "xls": "Table_16x_contrast.svg",
       "csv": "Table_16x_contrast.svg",
-      "txt": "Text_16x_contrast.svg",
-      "rtf": "Text_16x_contrast.svg",
-      "md": "TextFile_16x_contrast.svg",
-      "md.rendered": "TextFile_16x_contrast.svg",
+      "txt": "TextFile_16x_contrast.svg",
+      "rtf": "TextFile_16x_contrast.svg",
+      "md": "MarkdownFile_16x_contrast.svg",
+      "md.rendered": "MarkdownFile_16x_contrast.svg",
+      "markdown": "MarkdownFile_16x_contrast.svg",
       "vbproj": "VBApplication_16x_contrast.svg",
       "vdi": "VirtualMachine_16x_contrast.svg",
       "vbox": "VirtualMachine_16x_contrast.svg",
@@ -1301,7 +1363,15 @@
       "bzip2": "ZipFile_16x_contrast.svg",
       "7z": "ZipFile_16x_contrast.svg",
       "rar": "ZipFile_16x_contrast.svg",
-      "tgz": "ZipFile_16x_contrast.svg"
+      "tgz": "ZipFile_16x_contrast.svg",
+      "ashx": "ASPGenericHandlerFile_16x_contrast.svg",
+      "bin": "BinaryFile_16x_contrast.svg",
+      "chm": "CompiledHelpFile_16x_contrast.svg",
+      "pdb": "PDBFile_16x_contrast.svg",
+      "ps1": "PowershellFile_16x_contrast.svg",
+      "psm1": "PowershellFile_16x_contrast.svg",
+      "yml": "YAMLFile_16x_contrast.svg",
+      "yaml": "YAMLFile_16x_contrast.svg"
     },
     "fileNames": {
       "androidmanifest.xml": "AndroidFile_16x_contrast.svg",
@@ -1374,7 +1444,7 @@
     "s": "AssemblerSourceFile_16x_inverse.svg",
     "styl": "BuildStyle_16x_inverse.svg",
     "c": "CFile_16x_color_inverse.svg",
-    "cc": "CFile_16x_color_inverse.svg",
+    "cc": "CPP_16x_inverse.svg",
     "cpp": "CPP_16x_inverse.svg",
     "cxx": "CPP_16x_inverse.svg",
     "h": "CPPHeaderFile_16x_inverse.svg",
@@ -1389,14 +1459,12 @@
     "cmd": "Console_16x_inverse.svg",
     "sh": "Console_16x_inverse.svg",
     "bat": "Console_16x_inverse.svg",
-    "ps1": "Console_16x_inverse.svg",
     "vcxproj": "CPPApplication_16x_inverse.svg",
     "csproj": "CSApplication_16x_inverse.svg",
     "cur": "CursorFile_16x_inverse.svg",
     "sql": "Database_16x_inverse.svg",
     "mdb": "Database_16x_inverse.svg",
     "sqlite": "Database_16x_inverse.svg",
-    "pdb": "Database_16x_inverse.svg",
     "vsix": "Extension_16x_inverse.svg",
     "manifest": "ExtensionManagerManifest_16x_inverse.svg",
     "resx": "FileGroup_16x_inverse.svg",
@@ -1516,6 +1584,7 @@
     "docx": "OfficeWord2013Logo_16x_inverse.svg",
     "cshtml": "Parameter_16x_inverse.svg",
     "razor": "Parameter_16x_inverse.svg",
+    "vbhtml": "Parameter_16x_inverse.svg",
     "pdf": "PDFFile_16x_inverse.svg",
     "php": "PHPFile_16x_inverse.svg",
     "properties": "Property_16x_inverse.svg",
@@ -1544,10 +1613,11 @@
     "xlsx": "Table_16x_inverse.svg",
     "xls": "Table_16x_inverse.svg",
     "csv": "Table_16x_inverse.svg",
-    "txt": "Text_16x_inverse.svg",
-    "rtf": "Text_16x_inverse.svg",
-    "md": "TextFile_16x_inverse.svg",
-    "md.rendered": "TextFile_16x_inverse.svg",
+    "txt": "TextFile_16x_inverse.svg",
+    "rtf": "TextFile_16x_inverse.svg",
+    "md": "MarkdownFile_16x_inverse.svg",
+    "md.rendered": "MarkdownFile_16x_inverse.svg",
+    "markdown": "MarkdownFile_16x_inverse.svg",
     "vbproj": "VBApplication_16x_inverse.svg",
     "vdi": "VirtualMachine_16x_inverse.svg",
     "vbox": "VirtualMachine_16x_inverse.svg",
@@ -1571,7 +1641,15 @@
     "bzip2": "ZipFile_16x_inverse.svg",
     "7z": "ZipFile_16x_inverse.svg",
     "rar": "ZipFile_16x_inverse.svg",
-    "tgz": "ZipFile_16x_inverse.svg"
+    "tgz": "ZipFile_16x_inverse.svg",
+    "ashx": "ASPGenericHandlerFile_16x_inverse.svg",
+    "bin": "BinaryFile_16x_inverse.svg",
+    "chm": "CompiledHelpFile_16x_inverse.svg",
+    "pdb": "PDBFile_16x_inverse.svg",
+    "ps1": "PowershellFile_16x_inverse.svg",
+    "psm1": "PowershellFile_16x_inverse.svg",
+    "yml": "YAMLFile_16x_inverse.svg",
+    "yaml": "YAMLFile_16x_inverse.svg"
   },
   "fileNames": {
     "androidmanifest.xml": "AndroidFile_16x_inverse.svg",

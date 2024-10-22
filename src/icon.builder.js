@@ -3,19 +3,17 @@
 import path from 'path'
 import { readFileSync, promises as fs } from 'fs'
 
-import { __dirname } from './constants.js'
-
 export class IconBuilder {
   constructor () {
     this.paths = {
-      iconSrcPath: path.join(__dirname, 'svg'),
-      destPath: path.join(__dirname, '..', 'fileicons'),
-      iconDestPath: path.join(__dirname, '..', 'fileicons', 'images'),
-      configDestPath: path.join(__dirname, '..', 'fileicons', 'studio-icons.json')
+      iconSrcPath: path.join(import.meta.dirname, 'svg'),
+      destPath: path.join(import.meta.dirname, '..', 'fileicons'),
+      iconDestPath: path.join(import.meta.dirname, '..', 'fileicons', 'images'),
+      configDestPath: path.join(import.meta.dirname, '..', 'fileicons', 'studio-icons.json')
     }
 
     this.settings = Object.freeze(JSON.parse(
-      readFileSync(path.join(__dirname, 'icon-settings.json'))
+      readFileSync(path.join(import.meta.dirname, 'icon-settings.json'))
     ))
   }
 
@@ -45,55 +43,27 @@ export class IconBuilder {
     const colors = this.settings.colors
 
     const content = await fs.readFile(srcPath, { encoding: 'utf-8' })
-    const lightContent = content
-      .replaceAll(colors.background, this.settings.light.colors.background)
-      .replaceAll(colors.foreground, this.settings.light.colors.foreground)
 
-    const darkContent = content.toString()
-      .replaceAll(colors.white, this.settings.dark.colors.foreground)
-      .replaceAll(colors.background, this.settings.dark.colors.background)
-      .replaceAll(colors.foreground, this.settings.dark.colors.foreground)
-      .replaceAll(colors.outline, this.settings.dark.colors.foreground)
-      .replaceAll(colors.aspBlue, this.settings.dark.colors.aspBlue)
-      .replaceAll(colors.cppPurple, this.settings.dark.colors.cppPurple)
-      .replaceAll(colors.csGreen, this.settings.dark.colors.csGreen)
-      .replaceAll(colors.fsPurple, this.settings.dark.colors.fsPurple)
-      .replaceAll(colors.vbBlue, this.settings.dark.colors.vbBlue)
-      .replaceAll(colors.tsOrange, this.settings.dark.colors.tsOrange)
-      .replaceAll(colors.pyGreen, this.settings.dark.colors.pyGreen)
-      .replaceAll(colors.vsPurple, this.settings.dark.colors.vsPurple)
-      .replaceAll(colors.accessRed, this.settings.dark.colors.accessRed)
-      .replaceAll(colors.wordBlue, this.settings.dark.colors.wordBlue)
-      .replaceAll(colors.pptRed, this.settings.dark.colors.pptRed)
-      .replaceAll(colors.projGreen, this.settings.dark.colors.projGreen)
-      .replaceAll(colors.visioPurple, this.settings.dark.colors.visioPurple)
-      .replaceAll(colors.excelGreen, this.settings.dark.colors.excelGreen)
+    let lightContent = content
+    let darkContent = content
+    let contrastContent = content
 
-    const contrastContent = content.toString()
-      .replaceAll(colors.white, this.settings.contrast.colors.foreground)
-      .replaceAll(colors.background, this.settings.contrast.colors.background)
-      .replaceAll(colors.foreground, this.settings.contrast.colors.foreground)
-      .replaceAll(colors.outline, this.settings.contrast.colors.outline)
-      .replaceAll(colors.folderTan, this.settings.contrast.colors.background)
-      .replaceAll(colors.androidGreen, this.settings.contrast.colors.background)
-      .replaceAll(colors.aspBlue, this.settings.contrast.colors.background)
-      .replaceAll(colors.cppPurple, this.settings.contrast.colors.background)
-      .replaceAll(colors.csGreen, this.settings.contrast.colors.background)
-      .replaceAll(colors.cssRed, this.settings.contrast.colors.background)
-      .replaceAll(colors.fsPurple, this.settings.contrast.colors.background)
-      .replaceAll(colors.jsOrange, this.settings.contrast.colors.background)
-      .replaceAll(colors.vbBlue, this.settings.contrast.colors.background)
-      .replaceAll(colors.tsOrange, this.settings.contrast.colors.background)
-      .replaceAll(colors.gitOrange, this.settings.contrast.colors.background)
-      .replaceAll(colors.pyGreen, this.settings.contrast.colors.background)
-      .replaceAll(colors.vsPurple, this.settings.contrast.colors.background)
-      .replaceAll(colors.sassPurple, this.settings.contrast.colors.background)
-      .replaceAll(colors.accessRed, this.settings.contrast.colors.background)
-      .replaceAll(colors.wordBlue, this.settings.contrast.colors.background)
-      .replaceAll(colors.pptRed, this.settings.contrast.colors.background)
-      .replaceAll(colors.projGreen, this.settings.contrast.colors.background)
-      .replaceAll(colors.visioPurple, this.settings.contrast.colors.background)
-      .replaceAll(colors.excelGreen, this.settings.contrast.colors.background)
+    // Perform replacements in the the SVG content
+    lightContent = this._replaceColors(
+      lightContent,
+      colors,
+      this.settings.light.colors
+    )
+    darkContent = this._replaceColors(
+      darkContent,
+      colors,
+      this.settings.dark.colors
+    )
+    contrastContent = this._replaceColors(
+      contrastContent,
+      colors,
+      this.settings.contrast.colors
+    )
 
     await fs.writeFile(lightPath, lightContent, { encoding: 'utf-8', flag: 'w' })
     await fs.writeFile(darkPath, darkContent, { encoding: 'utf-8', flag: 'w' })
@@ -111,6 +81,20 @@ export class IconBuilder {
     iconDefinitions[contrastPathName] = {
       iconPath: `./images/${contrastPathName}`
     }
+  }
+
+  _replaceColors (content, originalColors, newColors) {
+    for (const [colorName, colorValue] of Object.entries(originalColors)) {
+      const originalColor = colorValue.startsWith('#') ? colorValue : '#' + colorValue
+      const newColor = newColors[colorName]
+        ? newColors[colorName].startsWith('#')
+          ? newColors[colorName]
+          : '#' + newColors[colorName]
+        : originalColor
+      const regex = new RegExp(originalColor, 'gi')
+      content = content.replace(regex, newColor)
+    }
+    return content
   }
 
   async _createConfig (iconDefinitions) {

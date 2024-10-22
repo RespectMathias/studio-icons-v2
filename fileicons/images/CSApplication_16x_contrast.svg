@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<g id="outline">
-	<rect style="opacity:0;fill:#000000;" width="16" height="16"/>
-	<path style="fill:#000000;" d="M16,15H0V1h16V15z"/>
-</g>
-<g id="icon_x5F_bg">
-</g>
-<g id="color_x5F_importance">
-	<path style="fill:#FFFFFF;" d="M1,2v12h14V2H1z M14,13H2V5h12V13z"/>
-</g>
-<g id="icon_x5F_fg">
-	<path style="fill:#000000;" d="M14,13H2V5h12V13z"/>
-</g>
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <ns0:defs>
+    <ns0:style>.canvas{fill: none; opacity: 0;}.light-green-10{fill: #1f801f; opacity: 0.1;}.light-green{fill: #1f801f; opacity: 1;}.cls-1{opacity:0.75;}</ns0:style>
+  </ns0:defs>
+  <ns0:title>IconLightCSApplication</ns0:title>
+  <ns0:g id="canvas" style="fill:none;opacity:0;">
+    <ns0:path d="M0,0H16V16H0Z" style="fill:none;opacity:0;" />
+  </ns0:g>
+  <ns0:g id="level-1">
+    <ns0:g style="opacity:0.75;">
+      <ns0:path d="M14.5,5.5v8H1.5v-8Z" style="fill:#1f801f;opacity:0.1;" />
+      <ns0:path d="M14.5,5H1.5L1,5.5v8l.5.5h13l.5-.5v-8ZM14,13H2V6H14Z" style="fill:#1f801f;opacity:1;" />
+    </ns0:g>
+    <ns0:g style="opacity:0.75;">
+      <ns0:path d="M14.5,2.5v3H1.5v-3Z" style="fill:#1f801f;opacity:1;" />
+    </ns0:g>
+    <ns0:path d="M14.5,2H1.5L1,2.5v3l.5.5h13l.5-.5v-3ZM14,5H2V3H14Z" style="fill:#1f801f;opacity:1;" />
+  </ns0:g>
+</ns0:svg>

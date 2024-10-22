@@ -1,3 +1,6 @@
+## 2.0.1 (October 22, 2024)
+  - Updated icons to 2022 version using Visual Studio 2022 Image Library
+
 ## 2.0.0 (May 3, 2024)
   - Rewrote package with gulp 5.0 and mjs
   - Added `mjs`, `cjs`, `mts`, `cts` to `js` and `ts` icons 

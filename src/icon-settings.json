@@ -13,7 +13,7 @@
 		"csGreen": "388A34",
 		"cssRed": "BD1E2D",
 		"fsPurple": "682878",
-		"jsOrange": "F16421",
+		"jsOrange": "B73D18",
 		"vbBlue": "00539C",
 		"tsOrange": "E04C06",
 		"gitOrange": "F05133",
@@ -25,8 +25,9 @@
 		"pptRed": "D34927",
 		"projGreen": "31752F",
 		"visioPurple": "3955A3",
-		"excelGreen": "217346"
-	},
+		"excelGreen": "217346",
+		"outlineGrey": "212121"
+	  },	  
 	"dark": {
 		"folderExpanded": "FolderOpen_16x_inverse.svg",
 		"folder": "Folder_16x_inverse.svg",
@@ -48,12 +49,14 @@
 			"pyGreen": "B6C949",
 			"vsPurple": "D294E2",
 			"sassPurple": "FF80BF",
+			"jsOrange": "FF6A00",
 			"accessRed": "d95356",
 			"wordBlue": "769dd9",
 			"pptRed": "dd6145",
 			"projGreen": "88e8b2",
 			"visioPurple": "8199dd",
-			"excelGreen": "9ae2ba"
+			"excelGreen": "9ae2ba",
+			"outlineGrey": "FFFFFF"
 		}
 	},
 	"light": {
@@ -163,7 +166,8 @@
 			"iconPath": "CPP_16x.svg",
 			"fileExtensions": [
 				"cpp",
-				"cxx"
+				"cxx",
+				"cc"
 			],
 			"fileNames": []
 		},
@@ -212,8 +216,7 @@
 			"fileExtensions": [
 				"cmd",
 				"sh",
-				"bat",
-				"ps1"
+				"bat"
 			],
 			"fileNames": []
 		},
@@ -248,8 +251,7 @@
 			"fileExtensions": [
 				"sql",
 				"mdb",
-				"sqlite",
-				"pdb"
+				"sqlite"
 			],
 			"fileNames": []
 		},
@@ -613,7 +615,8 @@
 			"iconPath": "Parameter_16x.svg",
 			"fileExtensions": [
 				"cshtml",
-				"razor"
+				"razor",
+				"vbhtml"
 			],
 			"fileNames": []
 		},
@@ -764,7 +767,7 @@
 			"fileNames": []
 		},
 		{
-			"iconPath": "Text_16x.svg",
+			"iconPath": "TextFile_16x.svg",
 			"fileExtensions": [
 				"txt",
 				"rtf"
@@ -772,10 +775,11 @@
 			"fileNames": []
 		},
 		{
-			"iconPath": "TextFile_16x.svg",
+			"iconPath": "MarkdownFile_16x.svg",
 			"fileExtensions": [
 				"md",
-				"md.rendered"
+				"md.rendered",
+				"markdown"
 			],
 			"fileNames": []
 		},
@@ -876,6 +880,50 @@
 			"fileNames": [],
 			"folderNames": [],
 			"languageIds": []
-		}
+		},
+		{
+			"iconPath": "ASPGenericHandlerFile_16x.svg",
+			"fileExtensions": [
+				"ashx"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "BinaryFile_16x.svg",
+			"fileExtensions": [
+				"bin"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "CompiledHelpFile_16x.svg",
+			"fileExtensions": [
+				"chm"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "PDBFile_16x.svg",
+			"fileExtensions": [
+				"pdb"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "PowershellFile_16x.svg",
+			"fileExtensions": [
+				"ps1",
+				"psm1"
+			],
+			"fileNames": []
+		},
+		{
+			"iconPath": "YAMLFile_16x.svg",
+			"fileExtensions": [
+				"yml",
+				"yaml"
+			],
+			"fileNames": []
+		}		
 	]
 }
