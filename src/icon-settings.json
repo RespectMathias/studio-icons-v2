@@ -115,10 +115,40 @@
 		{
 			"iconPath": "Application_16x.svg",
 			"fileExtensions": [
-				"exe"
+			  "exe",
+			  "nproj",
+			  "aspproj",
+			  "wdproj",
+			  "webproj",
+			  "dbproj",
+			  "sqlproj",
+			  "dtproj",
+			  "jsproj",
+			  "vjsproj",
+			  "wixproj",
+			  "vdproj",
+			  "shproj",
+			  "nuproj",
+			  "ccproj",
+			  "sfproj",
+			  "pubxml",
+			  "vcxitems",
+			  "pyproj",
+			  "hiveproj",
+			  "xproj",
+			  "androidproj",
+			  "iosproj",
+			  "uproject",
+			  "testproj",
+			  "uiproj",
+			  "loadtest",
+			  "proj",
+			  "targets",
+			  "dcproj",
+			  "esproj"
 			],
 			"fileNames": []
-		},
+		},		  
 		{
 			"iconPath": "AudioOn_16x.svg",
 			"fileExtensions": [
@@ -223,7 +253,8 @@
 		{
 			"iconPath": "CPPApplication_16x.svg",
 			"fileExtensions": [
-				"vcxproj"
+				"vcxproj",
+				"vcproj"
 			]
 		},
 		{
@@ -383,7 +414,8 @@
 				"pgf",
 				"pic",
 				"raw",
-				"webp"
+				"webp",
+				"avif"
 			],
 			"fileNames": []
 		},
