@@ -1,14 +1,13 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<ns0:g id="canvas">
-	<ns0:path id="XMLID_1_" style="opacity:0;fill:#F6F6F6;" d="M16,16H0V0h16V16z" />
-</ns0:g>
-<ns0:g id="outline">
-	<ns0:path id="XMLID_3_" style="fill:#F6F6F6;" d="M16,2.5v10c0,0.827-0.673,1.5-1.5,1.5H2.504c-0.827,0-1.5-0.673-1.5-1.5v-8   c0-0.827,0.673-1.5,1.5-1.5H5.39l1-2h8.11C15.327,1,16,1.673,16,2.5z" />
-</ns0:g>
-<ns0:g id="iconBg">
-	<ns0:path style="fill:#DCB67A;" d="M14.5,2H7.008l-1,2H2.504c-0.277,0-0.5,0.224-0.5,0.5v8c0,0.276,0.223,0.5,0.5,0.5H14.5   c0.275,0,0.5-0.224,0.5-0.5v-10C15,2.224,14.775,2,14.5,2z M14.004,4H7.508l0.5-1h0.004h5.992V4z" />
-</ns0:g>
-<ns0:g id="iconFg">
-	<ns0:path id="XMLID_5_" style="fill:#F3F3F3;" d="M14,3v1H7.5L8,3H14z" />
-</ns0:g>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <ns0:defs>
+    <ns0:style>.canvas{fill: none; opacity: 0;}.light-yellow-10{fill: #996f00; opacity: 0.1;}.light-yellow{fill: #996f00; opacity: 1;}</ns0:style>
+  </ns0:defs>
+  <ns0:title>IconLightFolderClosed</ns0:title>
+  <ns0:g id="canvas" style="fill:none;opacity:0;">
+    <ns0:path d="M16,16H0V0H16Z" style="fill:none;opacity:0;" />
+  </ns0:g>
+  <ns0:g id="level-1">
+    <ns0:path d="M14.5,3.5v9H1.5V2.5h6l1,1Z" style="fill:#996f00;opacity:0.1;" />
+    <ns0:path d="M14.5,3H8.707l-.853-.854L7.5,2h-6L1,2.5v10l.5.5h13l.5-.5v-9ZM7.293,3l.488.488L7.268,4H2V3ZM14,12H2V5H7.475l.354-.146L8.682,4H14Z" style="fill:#996f00;opacity:1;" />
+  </ns0:g>
 </ns0:svg>

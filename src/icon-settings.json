@@ -924,6 +924,14 @@
 				"yaml"
 			],
 			"fileNames": []
+		},
+		{
+			"iconPath": "dockerfile_16x.svg",
+			"fileExtensions": [],
+			"fileNames": [
+				"Dockerfile",
+				"dockerfile"
+			]
 		}		
 	]
 }

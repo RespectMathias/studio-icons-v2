@@ -863,6 +863,15 @@
     },
     "YAMLFile_16x_contrast.svg": {
       "iconPath": "./images/YAMLFile_16x_contrast.svg"
+    },
+    "dockerfile_16x.svg": {
+      "iconPath": "./images/dockerfile_16x.svg"
+    },
+    "dockerfile_16x_inverse.svg": {
+      "iconPath": "./images/dockerfile_16x_inverse.svg"
+    },
+    "dockerfile_16x_contrast.svg": {
+      "iconPath": "./images/dockerfile_16x_contrast.svg"
     }
   },
   "light": {
@@ -1123,7 +1132,9 @@
       "procfile": "SettingsFile_16x.svg",
       ".buildignore": "SettingsFile_16x.svg",
       "tsconfig.json": "TS_FileSENode_16x.svg",
-      "tslint.json": "TS_FileSENode_16x.svg"
+      "tslint.json": "TS_FileSENode_16x.svg",
+      "Dockerfile": "dockerfile_16x.svg",
+      "dockerfile": "dockerfile_16x.svg"
     },
     "folderNames": {
       "properties": "Property_16x.svg",
@@ -1402,7 +1413,9 @@
       "procfile": "SettingsFile_16x_contrast.svg",
       ".buildignore": "SettingsFile_16x_contrast.svg",
       "tsconfig.json": "TS_FileSENode_16x_contrast.svg",
-      "tslint.json": "TS_FileSENode_16x_contrast.svg"
+      "tslint.json": "TS_FileSENode_16x_contrast.svg",
+      "Dockerfile": "dockerfile_16x_contrast.svg",
+      "dockerfile": "dockerfile_16x_contrast.svg"
     },
     "folderNames": {
       "properties": "Property_16x_contrast.svg",
@@ -1680,7 +1693,9 @@
     "procfile": "SettingsFile_16x_inverse.svg",
     ".buildignore": "SettingsFile_16x_inverse.svg",
     "tsconfig.json": "TS_FileSENode_16x_inverse.svg",
-    "tslint.json": "TS_FileSENode_16x_inverse.svg"
+    "tslint.json": "TS_FileSENode_16x_inverse.svg",
+    "Dockerfile": "dockerfile_16x_inverse.svg",
+    "dockerfile": "dockerfile_16x_inverse.svg"
   },
   "folderNames": {
     "properties": "Property_16x_inverse.svg",

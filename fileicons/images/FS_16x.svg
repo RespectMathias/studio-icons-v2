@@ -1,14 +1,12 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-<ns0:g id="outline">
-	<ns0:rect style="opacity:0;fill:#F6F6F6;" width="16" height="16" />
-	<ns0:polygon style="fill:#F6F6F6;" points="14,3 2,3 2,12 5.949,12 5.949,9.281 8.754,9.281 8.754,9 9,9 9,10 14,10 14,9 15,9 15,4    14,4  " />
-</ns0:g>
-<ns0:g id="icon_x5F_bg">
-</ns0:g>
-<ns0:g id="color_x5F_importance">
-	<ns0:g>
-		<ns0:path style="fill:#682878;" d="M14,6V5h-1V4h-1v1h-1V4h-1v1H9v1h1v1H9v1h1v1h1V8h1v1h1V8h1V7h-1V6H14z M12,7h-1V6h1V7z" />
-		<ns0:polygon style="fill:#682878;" points="3,11 4.949,11 4.949,8.281 7.754,8.281 7.754,7.001 4.949,7.001 4.949,5.283 8,5.283 8,4     3,4   " />
-	</ns0:g>
-</ns0:g>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <ns0:defs>
+    <ns0:style>.canvas{fill: none; opacity: 0;}.light-purple{fill: #6936aa; opacity: 1;}</ns0:style>
+  </ns0:defs>
+  <ns0:title>IconLightFSFileNode</ns0:title>
+  <ns0:g id="canvas" style="fill:none;opacity:0;">
+    <ns0:path d="M16,16H0V0H16Z" style="fill:none;opacity:0;" />
+  </ns0:g>
+  <ns0:g id="level-1">
+    <ns0:path d="M13,6V8h1V9H13v1H12V9H10v1H9V9H8V8H9V6H8V5H9V4h1V5h2V4h1V5h1V6ZM12,6H10V8h2ZM6.318,5.127H3.328v2.4H6.084V8.653H3.328V12H2V4H6.318Z" style="fill:#6936aa;opacity:1;" />
+  </ns0:g>
 </ns0:svg>
